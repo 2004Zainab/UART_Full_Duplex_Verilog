@@ -77,8 +77,8 @@ Operation:
 5. Display received data on LEDs.
 
 # UART Configuration:
-  Parameter         Value  
----------------     ------ 
+  Parameter          Value  
+---------------      ------ 
  Clock Frequency     50 MHz 
  Baud Rate           115200 
  Data Bits           8      
