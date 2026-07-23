@@ -25,7 +25,7 @@ Outputs
 tx_en
 rx_en
 
-# 2. UART Transmitter (transmitter.v)
+# 2. UART Transmitter (uart_tx.v)
 Finite State Machine (FSM) based UART transmitter.
 States:
 IDLE
@@ -41,7 +41,7 @@ Frame Format:
 Idle | Start | D0 D1 D2 D3 D4 D5 D6 D7 | Stop
   1      0       8-bit Data (LSB First)   1
 
-# 3. UART Receiver (receiver.v)
+# 3. UART Receiver uart_rx.v)
 FSM-based receiver implementing 16× oversampling for reliable data reception.
 States:
 IDLE
