@@ -77,15 +77,15 @@ Operation:
 5. Display received data on LEDs.
 
 # UART Configuration:
-  Parameter          Value  
----------------      ------ 
- Clock Frequency     50 MHz 
- Baud Rate           115200 
- Data Bits           8      
- Parity              None   
- Stop Bits           1      
- Flow Control        None   
- Oversampling        16×    
+ | Parameter       | Value  |
+| --------------- | ------ |
+| Clock Frequency | 50 MHz |
+| Baud Rate       | 115200 |
+| Data Bits       | 8      |
+| Parity          | None   |
+| Stop Bits       | 1      |
+| Flow Control    | None   |
+| Oversampling    | 16×    |
 
  
 
